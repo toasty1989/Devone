@@ -22,7 +22,7 @@ public class ex2_5 {
 				subtotal;
 		Scanner input = new Scanner(System.in);
 		//Promt user to enter subtotal and gratuity rate
-		System.out.println("Enter the subtotal and gratuity rate: ");
+		System.out.print("Enter the subtotal and gratuity rate: ");
 		subtotal = input.nextDouble();
 		gratuityRate = input.nextDouble();
 		gratuityTotal = subtotal * gratuityRate * .01;

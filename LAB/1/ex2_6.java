@@ -16,7 +16,7 @@ public class ex2_6 {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in); 
 		//Prompt User for for a number between 0-1000
-		System.out.println("Enter a number between 0 and 1000: ");
+		System.out.print("Enter a number between 0 and 1000: ");
 		int number = input.nextInt();
 		int fDigit = number % 10;
 		int remainingNumber = number / 10;

@@ -10,14 +10,14 @@
       celsius to fahrenheit.
    */
 
-
+//so we can use the input from the user
 import java.util.Scanner;
 
 public class ex2_1 {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		//Promt the user to enter a digit for celsius
-		System.out.println("Enter a degree in Celsius: ");
+		System.out.print("Enter a degree in Celsius: ");
 		double celsius = input.nextDouble();
 		//The conversion from celsius to fahrenheit
 		double fahrenheit = (9.0 / 5 ) * celsius + 32.0;
