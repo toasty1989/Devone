@@ -10,11 +10,13 @@
       0 - 1000 and adds all the digits in the integer.
    */
 
+// need the scanner utility because we will be using the user's input
 import java.util.Scanner;
 
 public class ex2_6 {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in); 
+		
 		//Prompt User for for a number between 0-1000
 		System.out.print("Enter a number between 0 and 1000: ");
 		int number = input.nextInt();
@@ -24,6 +26,7 @@ public class ex2_6 {
 		remainingNumber = remainingNumber / 10;
 		int tDigit = remainingNumber % 10;
 		int sum = tDigit + sDigit + fDigit;
+		
 		//Output of the all the digits
 		System.out.println("The sum of the digits is " + sum);
 	}
