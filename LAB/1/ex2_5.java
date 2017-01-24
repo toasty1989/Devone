@@ -14,7 +14,7 @@
 import java.util.Scanner;
 
 public class ex2_5 {
-	public static void main(String[] Strings) {
+	public static void main(String[] args) {
 		// Assign Variables
 		double gratuityRate, 
 				gratuityTotal,

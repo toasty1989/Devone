@@ -14,7 +14,7 @@
 import java.util.Scanner;
 
 public class ex2_1 {
-	public static void main(String[] Strings) {
+	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		//Promt the user to enter a digit for celsius
 		System.out.println("Enter a degree in Celsius: ");
