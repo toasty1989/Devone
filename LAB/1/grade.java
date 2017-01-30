@@ -1,5 +1,5 @@
 /**
-   * file: grade.java
+   * file: Grade.java
    * author: Manfred Cabintoy
    * course: CMPT 220
    * assignment: Lab 1
@@ -13,7 +13,7 @@
 // need the scanner utility because we will be using the user's input
 import java.util.Scanner;
 
-public class grade {
+public class Grade {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		

@@ -1,5 +1,5 @@
 /**
-   * file: pattern.java
+   * file: Pattern.java
    * author: Manfred Cabintoy
    * course: CMPT 220
    * assignment: Lab 1
@@ -10,7 +10,7 @@
    */
 
 
-public class pattern {
+public class Pattern {
 	public static void main(String[] args) {
 		System.out.println();
 		//Start Of pattern
