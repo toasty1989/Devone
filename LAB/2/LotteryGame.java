@@ -30,9 +30,9 @@ public class LotteryGame {
         int lotteryDigit3 = lottery % 10;
         
         //Get digits from user
-        int lotteryGuess1 = lottery / 100;
-        int lotteryGuess2 = lottery % 100 / 10;
-        int lotteryGuess3 = lottery % 10;
+        int lotteryGuess1 = guess / 100;
+        int lotteryGuess2 = guess % 100 / 10;
+        int lotteryGuess3 = guess % 10;
         
         System.out.println("The lottery number is : " + lottery);
         
@@ -61,7 +61,24 @@ public class LotteryGame {
            
         else  
             System.out.println("Sorry, no match");
-           
+      
+        //Randomize the additional prize won
+        int prize = (int)(Math.random() * 10);
+        
+        switch (prize) {
+            case 0: System.out.println("Congratulations, Youve also won a high five."); break;
+            case 1: System.out.println("Congratulations, Youve also won a hug."); break;
+            case 2: System.out.println("Congratulations, Youve also won a lolipop."); break;               
+            case 3: System.out.println("Congratulations, Youve also won a handshake."); break;
+            case 4: System.out.println("Congratulations, Youve also won a pat on the back"); break;
+            case 5: System.out.println("Congratulations, Youve also won a magazine."); break;
+            case 6: System.out.println("Congratulations, Youve also won a cup of awesome."); break;
+            case 7: System.out.println("Congratulations, Youve also won a day off."); break;                
+            case 8: System.out.println("Congratulations, Youve also won a sandwich."); break; 
+            case 9: System.out.println("Congratulations, Youve also won a bottle of water."); 
+       
+        }
+        
     }
     
 }
