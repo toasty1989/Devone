@@ -13,21 +13,21 @@ import java.util.Scanner;
 
 public class AreaPolygon {
 
-    public static void main(String[] args) {
+  public static void main(String[] args) {
      
-        Scanner input = new Scanner(System.in);
+    Scanner input = new Scanner(System.in);
         
-        System.out.println("Enter the number of sides: ");
-        double sides = input.nextDouble();
+    System.out.println("Enter the number of sides: ");
+    double sides = input.nextDouble();
         
-        System.out.println("Enter the side: ");
-        double side = input.nextDouble();
+    System.out.println("Enter the side: ");
+    double side = input.nextDouble();
         
-        //Equation for calculating the area of a Polygon
-        double polyArea = (sides * side * side) / (4 * Math.tan(Math.PI / 5));
+    //Equation for calculating the area of a Polygon
+    double polyArea = (sides * side * side) / (4 * Math.tan(Math.PI / 5));
         
-        System.out.println("The area of the Polygon is: " +polyArea);
+    System.out.println("The area of the Polygon is: " +polyArea);
         
-    }
+  }
     
 }

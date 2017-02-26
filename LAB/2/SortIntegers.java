@@ -14,34 +14,34 @@ import java.util.Scanner;
 
 public class SortIntegers {
     
-    public static void main(String[] args) {
+  public static void main(String[] args) {
         
-        Scanner input = new Scanner(System.in);
+    Scanner input = new Scanner(System.in);
         
-        // Prompt user for 3 integers
-        System.out.println("Please enter three integer");
+    // Prompt user for 3 integers
+    System.out.println("Please enter three integer");
         
-        int firstInteger = input.nextInt();
+    int firstInteger = input.nextInt();
         
-        int secondInteger = input.nextInt();
+    int secondInteger = input.nextInt();
         
-        int thirdInteger = input.nextInt();
+    int thirdInteger = input.nextInt();
         
-        //Use if, else if statement to check if integers inputted are <, >, = 
-        //each other
+    //Use if, else if statement to check if integers inputted are <, >, = 
+    //each other
         
-        //Testing to see if firstInteger is the greatest number of the 3
-        if (firstInteger > secondInteger && firstInteger > thirdInteger)
-            System.out.println(+ secondInteger + "," + thirdInteger + "," + firstInteger);
+    //Testing to see if firstInteger is the greatest number of the 3
+    if (firstInteger > secondInteger && firstInteger > thirdInteger)
+      System.out.println(+ secondInteger + "," + thirdInteger + "," + firstInteger);
         
-        //Testing to see if secondInteger is the greatest number of the 3
-        else if(secondInteger > firstInteger && secondInteger > thirdInteger)
-            System.out.println(+ thirdInteger + "," + firstInteger + "," + secondInteger);
+    //Testing to see if secondInteger is the greatest number of the 3
+    else if(secondInteger > firstInteger && secondInteger > thirdInteger)
+      System.out.println(+ thirdInteger + "," + firstInteger + "," + secondInteger);
         
-        //Testing to see if thirdInteger is the greatest number of the 3
-        else if(thirdInteger > secondInteger && thirdInteger > firstInteger)
-            System.out.println(+ firstInteger + "," + secondInteger + "," + thirdInteger);
+    //Testing to see if thirdInteger is the greatest number of the 3
+    else if(thirdInteger > secondInteger && thirdInteger > firstInteger)
+      System.out.println(+ firstInteger + "," + secondInteger + "," + thirdInteger);
           
-    }
+  }
     
 }

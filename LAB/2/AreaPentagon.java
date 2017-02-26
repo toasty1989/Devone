@@ -13,21 +13,21 @@ import java.util.Scanner;
 
 public class AreaPentagon {
 
-    public static void main(String[] args) {
+  public static void main(String[] args) {
         
-        Scanner input = new Scanner(System.in);
+    Scanner input = new Scanner(System.in);
         
-        System.out.println("Enter length from the center of a pentagon to the vortex");
-        double radius = input.nextDouble();
+    System.out.println("Enter length from the center of a pentagon to the vortex");
+    double radius = input.nextDouble();
         
-        //Equation for sides of the pentagon
-        double sides = Math.sin(Math.PI / 5) * radius * 2 ;
+    //Equation for sides of the pentagon
+    double sides = Math.sin(Math.PI / 5) * radius * 2 ;
         
-        //Area equation for a pentagon
-        double area = (5 * sides * sides) / (4 * Math.tan(Math.PI / 5));
+    //Area equation for a pentagon
+    double area = (5 * sides * sides) / (4 * Math.tan(Math.PI / 5));
         
-        System.out.println("The area of the pentagon is: " + area);
+    System.out.println("The area of the pentagon is: " + area);
         
-    }
+  }
     
 }
