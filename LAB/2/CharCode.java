@@ -13,18 +13,18 @@ import java.util.Scanner;
 
 public class CharCode {
     
-    public static void main(String[] args) {
+  public static void main(String[] args) {
     
-        Scanner input = new Scanner(System.in);    
+    Scanner input = new Scanner(System.in);    
         
-        System.out.println("Enter an Integer between 0-127: ");
-        int ch = input.nextInt();
+    System.out.println("Enter an Integer between 0-127: ");
+    int ch = input.nextInt();
         
-        //casting an integer into a character  
-        char cha = (char)ch;
+    //casting an integer into a character  
+    char cha = (char)ch;
         
-        System.out.println("The letter is: " + cha);
+    System.out.println("The letter is: " + cha);
         
-    }
+  }
     
 }

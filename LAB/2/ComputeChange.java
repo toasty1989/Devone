@@ -14,60 +14,60 @@ import java.util.Scanner;
 
 public class ComputeChange {
 
-    public static void main(String[] args) {
+  public static void main(String[] args) {
        
-        //create a Scanner
-        Scanner input = new Scanner(System.in);
+    //create a Scanner
+    Scanner input = new Scanner(System.in);
         
-        //Recieve Amount
-        System.out.print("Enter an amount in double, for example 11.56: ");
-        String amountX = input.nextLine();
+    //Recieve Amount
+    System.out.print("Enter an amount in double, for example 11.56: ");
+    String amountX = input.nextLine();
         
-        //Open variable waiting for change
-        int amount;
+    //Open variable waiting for change
+    int amount;
         
-        //created to seperate dollars from cents
-        int rem = amountX.indexOf('.');
+    //created to seperate dollars from cents
+    int rem = amountX.indexOf('.');
         
-        //Indentify dollar amount
-        String dollars = amountX.substring(0, rem);
+    //Indentify dollar amount
+    String dollars = amountX.substring(0, rem);
         
-        //Identify remaining amount
-        String cents = amountX.substring(rem + 1);
+    //Identify remaining amount
+    String cents = amountX.substring(rem + 1);
         
-        //Converted string amount into an Integer
-        amount = Integer.parseInt(dollars + cents);
-        System.out.println(Integer.parseInt(dollars + cents));
+    //Converted string amount into an Integer
+    amount = Integer.parseInt(dollars + cents);
+    System.out.println(Integer.parseInt(dollars + cents));
         
-        int remainingAmount = amount;
+    int remainingAmount = amount;
 
-        // Find the number of one dollars
-        int numberOfOneDollars = remainingAmount / 100;
-        remainingAmount = remainingAmount % 100;
+    // Find the number of one dollars
+    int numberOfOneDollars = remainingAmount / 100;
+    remainingAmount = remainingAmount % 100;
 
-        // Find the number of quarters in the remaining amount
-        int numberOfQuarters = remainingAmount / 25;
-        remainingAmount = remainingAmount % 25;
+    // Find the number of quarters in the remaining amount
+    int numberOfQuarters = remainingAmount / 25;
+    remainingAmount = remainingAmount % 25;
 
-        // Find the number of dimes in the remaining amount
-        int numberOfDimes = remainingAmount / 10;
-        remainingAmount = remainingAmount % 10;
+    // Find the number of dimes in the remaining amount
+    int numberOfDimes = remainingAmount / 10;
+    remainingAmount = remainingAmount % 10;
 
-        // Find the number of nickels in the remaining amount
-        int numberOfNickels = remainingAmount / 5;
-        remainingAmount = remainingAmount % 5;
+    // Find the number of nickels in the remaining amount
+    int numberOfNickels = remainingAmount / 5;
+    remainingAmount = remainingAmount % 5;
 
-        // Find the number of pennies in the remaining amount
-        int numberOfPennies = remainingAmount;
+    // Find the number of pennies in the remaining amount
+    int numberOfPennies = remainingAmount;
 
-        // Displays your total in dollars, quarters, dimes, nikels, pennies
-        System.out.println("Your amount " + amount + " consists of");
-        System.out.println("    " + numberOfOneDollars + " dollars");
-        System.out.println("    " + numberOfQuarters + " quarters ");
-        System.out.println("    " + numberOfDimes + " dimes");
-        System.out.println("    " + numberOfNickels + " nickels");
-        System.out.println("    " + numberOfPennies + " pennies");
+    // Displays your total in dollars, quarters, dimes, nikels, pennies
+    System.out.println("Your amount " + amount + " consists of");
+    System.out.println("    " + numberOfOneDollars + " dollars");
+    System.out.println("    " + numberOfQuarters + " quarters ");
+    System.out.println("    " + numberOfDimes + " dimes");
+    System.out.println("    " + numberOfNickels + " nickels");
+    System.out.println("    " + numberOfPennies + " pennies");
         
-    }
+  }
     
 }

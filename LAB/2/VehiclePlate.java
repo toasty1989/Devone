@@ -10,32 +10,32 @@
  */
 public class VehiclePlate {
 
-    public static void main(String[] args) {
+  public static void main(String[] args) {
         
-        //Set a max-min paramenter, generate a number betwe 65-90
-        //A-Z code value
-        int n1 = 65 + (int)(Math.random() * ((90 - 65) + 1));
+    //Set a max-min paramenter, generate a number betwe 65-90
+    //A-Z code value
+    int n1 = 65 + (int)(Math.random() * ((90 - 65) + 1));
         
-        int n2 = 65 + (int)(Math.random() * ((90 - 65) + 1));
+    int n2 = 65 + (int)(Math.random() * ((90 - 65) + 1));
         
-        int n3 = 65 + (int)(Math.random() * ((90 - 65) + 1));
+    int n3 = 65 + (int)(Math.random() * ((90 - 65) + 1));
         
-	//Generate 3 numbers between 1-9
-        int p1 = (int)(Math.random() * 10);
+    //Generate 3 numbers between 1-9
+    int p1 = (int)(Math.random() * 10);
         
-        int p2 = (int)(Math.random() * 10);
+    int p2 = (int)(Math.random() * 10);
         
-        int p3 = (int)(Math.random() * 10);
+    int p3 = (int)(Math.random() * 10);
         
-	//Convert n1, n2, n3 into letters
-        char ch1 = (char)n1;
+    //Convert n1, n2, n3 into letters
+    char ch1 = (char)n1;
         
-        char ch2 = (char)n2;
+    char ch2 = (char)n2;
         
-        char ch3 = (char)n3;
+    char ch3 = (char)n3;
         
-        System.out.println("Your Liscense plate is: " + ch1 + ch2 + ch3 + p1 + p2 +p3);
+    System.out.println("Your Liscense plate is: " + ch1 + ch2 + ch3 + p1 + p2 +p3);
     
-    }
+  }
     
 }
