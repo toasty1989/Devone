@@ -11,24 +11,15 @@
  */
 
 public class FindLargestInteger {
-
-    public static void main(String[] args) {
+  public static void main(String[] args) {
     int n = 0;
-
-        while (Math.pow(n, 3) < 12000) {
-            n++;
-        }
-        
-	n--;
-        
-        System.out.println(n + " is the largest integer n, such that n^3 is less than 				   12,000");
-        
-        //Top 2 results closest to 12000
-        System.out.println("result 1: " + n + "^3 = " + Math.pow(n, 3));
-        
-        System.out.println("result 2: " + (n + 1) + "^3 = " + Math.pow(n + 1, 3));
-
-
+    //loop to find (integers) ^3 that are less than 12000
+    while (Math.pow(n, 3) < 12000) {
+      n++;
     }
-
+      n--;
+    System.out.println(n + " is the largest integer n, such that n^3 is less then 12,000");
+    //result closest to 12000
+    System.out.println("result 1: " + n + "^3 = " + Math.pow(n, 3));     
+  }
 }

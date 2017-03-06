@@ -11,23 +11,13 @@
  */
 
 public class FindSmallestInteger {
-
-    public static void main(String[] args) {
-        
+  public static void main(String[] args) {
     int n = 0;
-
-        while (Math.pow(n, 2) < 12000) {
-           
-            n++;
-        }
-
-        System.out.println(n + " is the lowest number, such that n^2 is greater than 				   12,000");
-        
-        // Two results closest to 1200 with n^2
-        System.out.println("Result 1: " + (n - 1) + "^2 = " + Math.pow(n - 1, 2));
-        
-        System.out.println("Result 2: " + n + "^2 = " + Math.pow(n, 2));
-
+    while (Math.pow(n, 2) < 12000) {
+      n++;
     }
-
+      System.out.println(n + " is the lowest number, such that n^2 is greater than 12,000");
+      // Top result closest to 1200 with n^2  
+      System.out.println("Result 2: " + n + "^2 = " + Math.pow(n, 2));
+  }
 }

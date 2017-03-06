@@ -13,30 +13,30 @@ import java.util.Scanner;
 
 public class MethodSumInteger {
 
-    public static void main(String[] args) {
+  public static void main(String[] args) {
         
-        Scanner input = new Scanner(System.in);
+    Scanner input = new Scanner(System.in);
         
-        System.out.print("Enter a Integer: ");
+    System.out.print("Enter a Integer: ");
         
-        int num = input.nextInt();
+    int num = input.nextInt();
         
-        System.out.println("The sum of the Digits is " + digitSum(num));
-    }
+    System.out.println("The sum of the Digits is " + digitSum(num));
+  }
     
     public static int digitSum (int num) {
         
-        int sum = 0;
+      int sum = 0;
         
-        while (num != 0) {
+      while (num != 0) {
             
-	    //calling first digit
-            sum = sum + num % 10;
+      //calling first digit
+      sum = sum + num % 10;
             
-	    //calling second digit
-            num = num / 10;
-        }
+      //calling second digit
+      num = num / 10;
+      }
         
-        return sum;
-    }
+      return sum;
+  }
 }
