@@ -52,7 +52,7 @@
       }
     }
     System.out.println("The location of the largest element is " + maxValue + 
-                      " at " + "("+length1 + ", " +length2+ ")" );
+            " at " + "("+length1 + ", " +length2+ ")" );
     return new Location();
   }
 } 
