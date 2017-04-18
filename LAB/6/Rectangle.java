@@ -16,13 +16,15 @@ public class Rectangle {
   public static void main(String[] args) {
     //create rectangle one
     Rectangle Rec1 = new Rectangle(4,40);
-    System.out.printf("Rectangle 1 Width = %2.2f, Height = %2.2f, Area = %2.2f, Perimeter =  %2.2f\n"
-                      ,Rec1.width, Rec1.height, Rec1.getArea(), Rec1.getPerimeter());
+    System.out.printf("Rectangle 1 Width = %2.2f, Height = %2.2f, Area = %2.2f, "
+            + "Perimeter =  %2.2f\n",Rec1.width, Rec1.height, Rec1.getArea(), 
+            Rec1.getPerimeter());
     
     //create rectangle two
     Rectangle Rec2 = new Rectangle(3.5,35.9);
-    System.out.printf("Rectangle 2 Width = %2.2f, Height = %2.2f, Area = %2.2f, Perimeter =  %2.2f\n"
-                      ,Rec2.width, Rec2.height, Rec2.getArea(), Rec2.getPerimeter());
+    System.out.printf("Rectangle 2 Width = %2.2f, Height = %2.2f, Area = %2.2f, "
+            + "Perimeter =  %2.2f\n",Rec2.width, Rec2.height, Rec2.getArea(), 
+            Rec2.getPerimeter());
   }
   
   //Data Field
