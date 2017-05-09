@@ -1,0 +1,11 @@
+39 pts
+
+The project helps figuring out parameters for taking photographs. 
+The idea has good merit and is somewhat original. 
+
+However, there are some issues...
+Code:
+- There is incorrect indentation. -1pt
+
+Overall:
+- Decent work average of an SD1 student.
